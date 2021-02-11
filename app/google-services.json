@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "780071496540",
+    "project_id": "contactsapp-cb1a5",
+    "storage_bucket": "contactsapp-cb1a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780071496540:android:9763d0c3430a9f271daf99",
+        "android_client_info": {
+          "package_name": "com.shady.simplecontactsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780071496540-96l8kq5b9fhri8aqlul20mdbeu5adbkg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDb9ekK84kvl3G-MI9E0kCWMmXdvjncmRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780071496540-96l8kq5b9fhri8aqlul20mdbeu5adbkg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

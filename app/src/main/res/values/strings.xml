@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Simple Contacts App</string>
+    <string name="menu_title_save">Save</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="str_telephone">Telephone</string>
+    <string name="menu_search">Search</string>
+</resources>

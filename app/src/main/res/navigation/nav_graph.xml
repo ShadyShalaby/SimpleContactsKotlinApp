@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/contactsListFragment">
+    <fragment
+        android:id="@+id/contactsListFragment"
+        android:name="com.shady.simplecontactsapp.ui.contacts.MainFragment"
+        android:label="contacts_list_fragment"
+        tools:layout="@layout/contacts_list_fragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_addContactFragment"
+            app:destination="@id/addContactFragment" />
+        <action
+            android:id="@+id/action_contactsListFragment_to_contactDetailsFragment"
+            app:destination="@id/contactDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addContactFragment"
+        android:name="com.shady.simplecontactsapp.ui.addcontact.AddContactFragment"
+        android:label="add_contact_fragment"
+        tools:layout="@layout/add_contact_fragment" />
+    <fragment
+        android:id="@+id/contactDetailsFragment"
+        android:name="com.shady.simplecontactsapp.ui.contactdetails.ContactDetailsFragment"
+        android:label="contact_details_fragment"
+        tools:layout="@layout/contact_details_fragment" >
+        <argument
+            android:name="contact"
+            app:argType="com.shady.simplecontactsapp.model.Contact" />
+    </fragment>
+</navigation>
